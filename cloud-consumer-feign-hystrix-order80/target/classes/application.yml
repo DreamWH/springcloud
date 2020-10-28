@@ -1,0 +1,32 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-order-hystrix-serivce
+
+
+eureka:
+  client:
+    #将自己注册进eureka服务端
+    register-with-eureka: true
+    #集群必须设置为true
+    fetch-registry: true
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #集群设置
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: orderHystrix80
+##设置客户端超时连接
+#ribbon:
+#  #建立连接所用的时间
+#  ReadTimeout: 5000
+#  #建立连接之后获取资源使用的时间
+#  ConnectTimeout: 5000
+#logging:
+#  level:
+#    com.atguigu.springcloud.service.PaymentFeignService: debug
+feign:
+  hystrix:
+    enabled: true
