@@ -1,4 +1,4 @@
-package com.atguigu.test;
+package com.atguigu.springcloud.test;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;

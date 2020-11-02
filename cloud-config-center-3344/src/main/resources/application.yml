@@ -15,6 +15,11 @@ spring:
           username: 1150993274@qq.com
           password: huang970226
       label: main #分支
+  rabbitmq:
+    host: 192.168.7.189
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   instance:
     hostname: cloud-config-center
@@ -23,3 +28,8 @@ eureka:
       defaultZone: http://localhost:7001/eureka
     fetch-registry: true #设置集群
     register-with-eureka: true #设置自身
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

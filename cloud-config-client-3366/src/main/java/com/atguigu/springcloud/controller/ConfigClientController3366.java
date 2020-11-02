@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RefreshScope
-public class ConfigClientController {
+public class ConfigClientController3366 {
 
     @Value("${gbs.host}")
     private String file;

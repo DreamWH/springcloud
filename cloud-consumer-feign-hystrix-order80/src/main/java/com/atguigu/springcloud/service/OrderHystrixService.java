@@ -5,8 +5,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import java.util.UUID;
-
 @Service
 @FeignClient(value = "CLOUD-PAYMENT-HYSTRIX-SERVICE",fallback = OrderHystrixServiceImpl.class)
 public interface OrderHystrixService {

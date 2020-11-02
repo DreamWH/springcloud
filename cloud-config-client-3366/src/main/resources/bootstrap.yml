@@ -1,5 +1,5 @@
 server:
-  port: 3355 #如果激活的配置文件中存在端口号，则这里的端口号不被采用，bootstrap优先级高于appliction
+  port: 3366 #如果激活的配置文件中存在端口号，则这里的端口号不被采用，bootstrap优先级高于appliction
 
 spring:
   profiles:
