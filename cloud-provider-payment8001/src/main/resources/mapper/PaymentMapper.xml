@@ -4,12 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.atguigu.springcloud.dao.PaymentDao">
 
-    <insert id="add" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
-        insert into payment(serial) values(#{serial})
+    <insert id="add" parameterType="com.atguigu.springcloud.entities.Payment" useGeneratedKeys="true" keyProperty="id">
+        insert into payment(name,age,serial) values(#{name},#{age},#{serial})
     </insert>
 
     <resultMap id="BasePaymentResult" type="com.atguigu.springcloud.entities.Payment">
         <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="age" property="age" />
         <result column="serial" property="serial" />
     </resultMap>
     <select id="getPaymentById" parameterType="Integer" resultMap="BasePaymentResult">
