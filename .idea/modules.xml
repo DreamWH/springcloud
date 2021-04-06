@@ -24,6 +24,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-order83/cloudalibaba-consumer-order83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-order83/cloudalibaba-consumer-order83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9001/cloudalibaba-provide-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9001/cloudalibaba-provide-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9002/cloudalibaba-provide-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9002/cloudalibaba-provide-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/cloudalibababa-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/cloudalibababa-config-nacos-client3377.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
     </modules>
   </component>
