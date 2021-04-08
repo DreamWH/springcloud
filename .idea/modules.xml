@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-order83/cloudalibaba-consumer-order83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-order83/cloudalibaba-consumer-order83.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9001/cloudalibaba-provide-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9001/cloudalibaba-provide-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9002/cloudalibaba-provide-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9002/cloudalibaba-provide-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service-8041/cloudalibaba-sentinel-service-8041.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service-8041/cloudalibaba-sentinel-service-8041.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/cloudalibababa-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/cloudalibababa-config-nacos-client3377.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
     </modules>

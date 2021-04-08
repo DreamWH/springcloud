@@ -19,20 +19,21 @@
         <module name="cloud-provider-payment8003" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloud-consumerconsul-order80" />
         <module name="cloudalibababa-config-nacos-client3377" />
         <module name="cloudalibaba-provide-payment9001" />
-        <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-consumer-feign-hystrix-order80" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-eureka-sever7001" />
         <module name="cloudalibaba-consumer-order83" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloudalibaba-sentinel-service-8041" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-gateway-gateway9527" />
-        <module name="cloud-consumerconsul-order80" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumerFeign-order80" />
         <module name="cloud-config-client-3366" />
-        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -61,6 +62,7 @@
       <module name="cloudalibaba-consumer-order83" target="1.8" />
       <module name="cloudalibaba-provide-payment9001" target="1.8" />
       <module name="cloudalibaba-provide-payment9002" target="1.8" />
+      <module name="cloudalibaba-sentinel-service-8041" target="1.8" />
       <module name="cloudalibababa-config-nacos-client3377" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>

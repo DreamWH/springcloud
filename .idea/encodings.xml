@@ -50,6 +50,8 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-provide-payment9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provide-payment9002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provide-payment9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service-8041/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service-8041/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibababa-config-nacos-client3377/src/main/resources" charset="UTF-8" />
   </component>
