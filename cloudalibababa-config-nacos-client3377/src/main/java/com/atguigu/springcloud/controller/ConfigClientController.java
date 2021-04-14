@@ -9,12 +9,23 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope //支持动态刷新功能
 public class ConfigClientController {
 
-    @Value("${config.info}")
+    @Value("${spring.info}")
     private String configInfo;
 
     @GetMapping("/config/info")
     public String getConfigInfo(){
         return configInfo;
+    }
+
+    /**
+     * @Author wangjun
+     * @Description 测试接口
+     * @Date  2021/4/13
+     * @Param [params, params2]
+     * @return java.lang.String
+    **/
+    public String getTestString(String params,String params2){
+        return params + params2;
     }
 
 }

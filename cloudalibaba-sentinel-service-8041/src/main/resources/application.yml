@@ -7,10 +7,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.70.42:8848  #naocs地址
+        server-addr: localhost:8848  #naocs地址
     sentinel:
       transport:
-        dashboard: 192.168.70.42:8080    #sentinel地址
+        dashboard: localhost:8080    #sentinel地址
         port: 8719 #端口配置会在应用对应的机器上启动一个Http Server，该Server会与Sentinel控制台做交互。默认8719，被占用会从8719开始依次+1扫描，直到终点未被使用端口。
 
 #暴露监控端点
